@@ -1,4 +1,5 @@
 import { BrowserRouter, useRoutes } from 'react-router-dom'
+
 import Home from '../Pages/Home/Home'
 import MyAccount from '../Pages/MyAccount/MyAccount'
 import MyOrder from '../Pages/MyOrder/MyOrder'
@@ -24,7 +25,7 @@ const AppRoutes = () => {
 function App () {
   return (
     <>
-      <div className='bg-red-100'>
+      <div>
         <BrowserRouter>
           <AppRoutes />
           <Navbar />

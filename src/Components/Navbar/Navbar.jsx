@@ -9,8 +9,6 @@ function Navbar () {
         <li className='font-semibold text-lg'>
           <NavLink
             to='/'
-            className={({ isActive }) =>
-              isActive ? activeStyle : undefined}
           >
             Shopi
           </NavLink>
